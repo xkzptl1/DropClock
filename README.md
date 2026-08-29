@@ -1,5 +1,7 @@
 # DropClock
 
+*日本語: [README.ja.md](README.ja.md)*
+
 DropClock is a Windows visual clock for a **1280×720 transparent display**.
 
 Clock digits, words and seasonal motifs are not drawn as sprites. They are formed
