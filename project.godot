@@ -1,0 +1,30 @@
+; DropClock — transparent-display water clock
+; Engine configuration file.
+
+config_version=5
+
+[application]
+
+config/name="DropClock"
+config/description="A water clock for transparent displays. Falling drops form the time for a single instant."
+run/main_scene="res://scenes/main.tscn"
+run/max_fps=60
+config/features=PackedStringArray("4.4", "Forward Plus")
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/mode=0
+window/vsync/vsync_mode=1
+; Canonical 1280x720 simulation canvas (AGENTS.md section 3). "canvas_items"
+; keeps the viewport at 1280x720 whatever the window does, and "keep" applies a
+; single uniform scale with letter/pillarboxing. Resizing therefore changes only
+; the presentation transform, never emitter spacing, motif layout or gravity.
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
+
+[rendering]
+
+renderer/rendering_method="forward_plus"
+environment/defaults/default_clear_color=Color(0, 0, 0, 1)

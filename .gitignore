@@ -1,0 +1,38 @@
+# Godot
+.godot/
+.import/
+export.cfg
+export_presets.cfg
+
+# Builds
+build/
+dist/
+releases/
+export/
+*.pck
+*.exe
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs / temp
+*.log
+*.tmp
+
+# Handoff delivery vehicle: its content is adopted into AGENTS.md and docs/
+DropClock_handoff/
+DropClock_handoff.zip
+
+# Per-task brief from the handoff, not part of the public project
+IMPLEMENTATION_TASK.md
+
+# Duplicate of docs/DROP_CLOCK_CONCEPT_v4.md (kept locally, not versioned twice)
+DropClock_Transparent_Display_Concept_v4.md
