@@ -116,5 +116,4 @@ is traced or bundled.
 
 ## License
 
-Not yet chosen — see `LICENSE_TODO.md`. A license must be added before this
-repository is made public.
+[MIT](LICENSE).
