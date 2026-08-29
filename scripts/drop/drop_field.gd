@@ -8,7 +8,7 @@ extends Node2D
 ##
 ## Drops live in parallel packed arrays with swap-removal, so nothing is
 ## allocated per frame. If this stops holding 60fps, the next steps are
-## MultiMeshInstance2D and then GPUParticles2D (PLAN.md section 2.3).
+## MultiMeshInstance2D and then GPUParticles2D.
 ##
 ## Shape comes from shaders/drop.gdshader. Per-drop values reach it through the
 ## modulate colour, which is all draw_texture_rect can carry: rgb is the tint

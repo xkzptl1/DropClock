@@ -4,7 +4,6 @@ extends RefCounted
 ##
 ## The core of DropClock. Drops are launched at staggered times so that, at one
 ## chosen instant, they are all simultaneously at the height their cell needs.
-## See PLAN.md section 2.2.
 ##
 ##   t_fall   = sqrt(2 * (y_target - nozzle_y) / gravity)
 ##   t_launch = t_align - t_fall

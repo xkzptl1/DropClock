@@ -17,7 +17,7 @@ window/size/viewport_width=1280
 window/size/viewport_height=720
 window/size/mode=0
 window/vsync/vsync_mode=1
-; Canonical 1280x720 simulation canvas (AGENTS.md section 3). "canvas_items"
+; Canonical 1280x720 simulation canvas. "canvas_items"
 ; keeps the viewport at 1280x720 whatever the window does, and "keep" applies a
 ; single uniform scale with letter/pillarboxing. Resizing therefore changes only
 ; the presentation transform, never emitter spacing, motif layout or gravity.

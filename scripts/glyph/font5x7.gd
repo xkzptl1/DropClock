@@ -8,7 +8,7 @@ extends RefCounted
 ## downsampled TTF is unpredictable at this resolution.
 ##
 ## A TTF rasteriser can be added later behind the same GlyphBuilder interface
-## for arbitrary text (v0.3); see PLAN.md.
+## for arbitrary text (v0.3).
 
 const WIDTH := 5
 const HEIGHT := 7

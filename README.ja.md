@@ -18,7 +18,7 @@ DropClock は **1280×720 の透過ディスプレイ**向けに作った Window
 - ボーダーレス全画面、マルチモニター選択、設定オーバーレイ、Windows 自動起動
 - 1280×720 で 60fps
 
-未実装: 夏・秋・冬の柄、着水スプラッシュ、スクリーンセーバー化。詳細は [TODO.md](TODO.md)。
+未実装: 夏・秋・冬の柄、着水スプラッシュ、スクリーンセーバー化。
 
 ## 必要なもの
 
@@ -78,14 +78,12 @@ close_time = 形成時刻 − time_to_fall(連続領域の上端)
 
 ## ドキュメント
 
-- [AGENTS.md](AGENTS.md) — プロジェクト規則（必須）
 - [docs/DROP_CLOCK_SPEC.md](docs/DROP_CLOCK_SPEC.md) — 製品・表示仕様
 - [docs/WATER_RENDERING.md](docs/WATER_RENDERING.md) — 落下する水の描画仕様
 - [docs/SAKURA_PATTERN.md](docs/SAKURA_PATTERN.md) — 桜 / 春の仕様
 - [docs/REFERENCE.md](docs/REFERENCE.md) — 公開参考資料
 - [docs/IP_NOTES.md](docs/IP_NOTES.md) — ソフトウェア限定の境界に関する覚書
 - [docs/GITHUB_RELEASE.md](docs/GITHUB_RELEASE.md) — 公開・リリース要件
-- [CLAUDE.md](CLAUDE.md) / [PLAN.md](PLAN.md) / [TODO.md](TODO.md) / [DONE.md](DONE.md) — 設計・作業記録
 
 ## 独立性 / 帰属
 

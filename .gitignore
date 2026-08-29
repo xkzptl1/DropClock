@@ -36,3 +36,10 @@ IMPLEMENTATION_TASK.md
 
 # Duplicate of docs/DROP_CLOCK_CONCEPT_v4.md (kept locally, not versioned twice)
 DropClock_Transparent_Display_Concept_v4.md
+
+# Internal working documents, kept locally and out of the public repo
+AGENTS.md
+CLAUDE.md
+DONE.md
+PLAN.md
+TODO.md

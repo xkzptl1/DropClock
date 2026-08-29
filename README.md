@@ -23,7 +23,7 @@ Working prototype.
 - 60 FPS at 1280×720
 
 Not yet done: the remaining seasonal motifs (autumn/winter/summer), splash effects,
-and screensaver mode. See `TODO.md`.
+and screensaver mode.
 
 ## Requirements
 
@@ -96,14 +96,12 @@ gravity or timing.
 
 ## Documentation
 
-- `AGENTS.md` — mandatory project rules
 - `docs/DROP_CLOCK_SPEC.md` — product and display specification
 - `docs/WATER_RENDERING.md` — falling-water rendering behaviour
 - `docs/SAKURA_PATTERN.md` — Sakura / spring specification
 - `docs/REFERENCE.md` — public reference material
 - `docs/IP_NOTES.md` — software-only project boundary
 - `docs/GITHUB_RELEASE.md` — publication requirements
-- `CLAUDE.md`, `PLAN.md`, `TODO.md`, `DONE.md` — working design notes (Japanese)
 
 ## Independence / Attribution
 

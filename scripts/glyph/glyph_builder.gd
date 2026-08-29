@@ -3,7 +3,7 @@ extends RefCounted
 ## Turns a string into a grid of lit cells.
 ##
 ## This layer knows nothing about physics or the screen; it works purely in
-## grid coordinates. See PLAN.md section 2.1.
+## grid coordinates.
 ##
 ## GlyphData is the common currency between text and patterns: PatternLibrary
 ## produces the same type from a file, so the planners never learn whether a
