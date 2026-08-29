@@ -11,6 +11,15 @@ stretches, and disappears. The time when nothing is on screen is part of the pie
 
 It is a **software-only renderer**. It does not control physical water hardware.
 
+## Download
+
+**[Download the latest Windows build](https://github.com/xkzptl1/DropClock/releases/latest)**
+— a single `DropClock.exe`, no installation and no runtime to install.
+
+The binary is unsigned, so Windows SmartScreen will warn the first time you run it:
+choose **More info → Run anyway**. `DropClock.console.exe` in the same release is
+the identical build with a console attached, for diagnostics.
+
 ## Status
 
 Working prototype.
@@ -56,6 +65,9 @@ Useful flags:
 `Esc` quits. `Ctrl+Alt+D` opens the settings overlay.
 
 ## Building
+
+Only needed if you want to build from source; otherwise use the
+[release build](https://github.com/xkzptl1/DropClock/releases/latest).
 
 ```bash
 godot --headless --path . --export-release "Windows Desktop" export/DropClock.exe

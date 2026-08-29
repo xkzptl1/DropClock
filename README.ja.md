@@ -8,6 +8,15 @@ DropClock は **1280×720 の透過ディスプレイ**向けに作った Window
 
 **ソフトウェアのみの描画**です。物理的な水の装置を制御するものではありません。
 
+## ダウンロード
+
+**[最新の Windows ビルドをダウンロード](https://github.com/xkzptl1/DropClock/releases/latest)**
+— `DropClock.exe` 単体で動きます。インストール不要、ランタイムも不要です。
+
+**署名していないバイナリ**なので、初回起動時に Windows SmartScreen の警告が出ます。
+**「詳細情報」→「実行」** で起動してください。同じリリースに入っている
+`DropClock.console.exe` は、コンソール出力が見える同一ビルドです（診断用）。
+
 ## 現在の状態
 
 動作するプロトタイプ。
@@ -50,6 +59,9 @@ godot --path . -- --dev
 `Esc` で終了。`Ctrl+Alt+D` で設定オーバーレイ。
 
 ## ビルド
+
+ソースからビルドする場合のみ必要です。動かすだけなら
+[リリースビルド](https://github.com/xkzptl1/DropClock/releases/latest) を使ってください。
 
 ```bash
 godot --headless --path . --export-release "Windows Desktop" export/DropClock.exe
